@@ -48,14 +48,17 @@ env/
 *_by_seconds/
 *.jpg
 *.png
+
+# Video files (except examples)
 *.mp4
 *.avi
 *.mov
 *.mkv
+!examples/*.mp4
+!examples/**/*.mp4
 
 # Testing
 test_videos/
-examples/
 samples/
 
 # Logs
