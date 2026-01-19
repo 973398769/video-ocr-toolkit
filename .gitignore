@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Output files
+*_ocr_output.txt
+*_ocr_seconds.txt
+*_cleaned.txt
+*_annotated.mp4
+*_annotated_frames/
+*_by_seconds/
+*.jpg
+*.png
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Testing
+test_videos/
+examples/
+samples/
+
+# Logs
+*.log
+
+# EasyOCR models
+.EasyOCR/
